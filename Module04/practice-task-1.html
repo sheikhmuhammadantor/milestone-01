@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+
+    <style>
+        html{
+            background-color: #fff;
+        }
+        body {
+            background-color: gray;
+            font-family: sans-serif;
+            width: 90%;
+            margin: 25px auto;
+            padding: 10px 25px;
+            border: 1px solid black;
+        }
+
+        body img {
+            width: 200px;
+            height: auto;
+        }
+
+        body input , textarea{
+            font-size: 16px;
+            border-radius: 5px;
+            outline: transparent;
+            outline-offset: 0px;
+            border: transparent;
+            padding: 8px 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="form-section">
+        <form action="#">
+            <hr>
+            <label for="name">Search your Image here :
+                <input type="search" name="name" id="name" placeholder="Enter Your Text">
+                <input type="button" value="Search">
+            </label>
+            <br>
+            <img src="./assets/Kung Fu Panda.png" alt="Kung Fu Panda"> <br>
+            <a href="#">For more click here</a>
+            <hr>
+            <form action="#">
+                <caption>Feedback Form</caption> <br>
+                <label for="userName">Name: <br>
+                    <input type="text" name="userName" id="userName" placeholder="Enter Your Text">
+                </label> <br>
+                <label for="date">Date: <br>
+                    <input type="date" name="date" id="date">
+                </label> <br>
+                <label for="comment">Comment: <br>
+                    <textarea name="comment" id="comment" cols="40" rows="5">
+                    </textarea>
+                </label> <br> <br>
+                <input type="submit" value="Submit">
+            </form>
+        </form>
+    </section>
+
+</body>
+
+</html>
