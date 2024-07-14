@@ -1,0 +1,46 @@
+/* index.html */
+*{
+    background-color: #8897b5;
+}
+
+.fistP{
+    color: green;
+}
+
+
+
+/* index4.html */
+div{
+    border: 2px solid red;
+    margin: 15px;
+    text-align: center;
+    padding: 5px 10px 15px 20px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaKc9bOhzKJMpcwcCpdCQigxhi5eg_ZjsExg&s ');
+}
+
+div .div{
+    background-color: red;
+}
+
+#one{
+    padding: 5px 10px;
+    background-color: gray;
+}
+
+#two{
+    padding: 5px 15px 10px;
+    
+}
+
+#three{
+    padding: 5px;
+}
+
+img{
+    text-align: center;
+    display: none;
+}
+
+button{
+    
+}
